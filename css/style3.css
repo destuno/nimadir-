@@ -1,0 +1,333 @@
+@import url(/fonts/font.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(203, 203, 203);
+}
+.container {
+  background-color: #fff;
+  width: 90vw;
+  margin: 30px auto;
+}
+.wrapper {
+  padding: 40px 100px;
+}
+.navbar {
+  background-color: #f6f6f9;
+  padding: 40px 100px;
+}
+.logos {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+.logo {
+  margin-right: 30px;
+  background-color: #fff;
+  padding: 10px;
+}
+.narx {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(138, 138, 138);
+}
+.span__narx {
+  width: 258px;
+  height: 21px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 3px;
+  color: #285193;
+}
+.nav__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-left: auto;
+  width: 146px;
+  height: 40px;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+  border: none;
+}
+.list {
+  padding: 22px 24px;
+  background-color: #fff;
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  margin-bottom: 18px;
+}
+.list__items,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+.banner {
+  box-sizing: border-box;
+  width: 100%;
+
+  border: 1px solid #e0e0e0;
+}
+.intros {
+  background-color: #f6f6f9;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  padding: 33px;
+}
+.intro {
+  display: flex;
+  gap: 15px;
+}
+.nav__btnimg {
+  width: 20px;
+  height: 20px;
+}
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.yoni__img {
+  margin-top: 20px;
+}
+.card {
+  /* Rectangle 22 */
+  padding: 10px;
+  width: 380px;
+  height: 70px;
+  background: #f6f6f9;
+  border-radius: 5px;
+}
+.end {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  width: 100%;
+  height: 214px;
+  padding: 10px;
+  background: #f6f6f9;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.end__title {
+  /* Всегда будьте в курсе последних новостей! */
+
+  width: 526px;
+  height: 30px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #295093;
+  margin-bottom: 10px;
+}
+.end__text {
+  width: 515px;
+  height: 44px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #333333;
+}
+.sayt {
+  border: none;
+  border-radius: 4px;
+  width: 162.71px;
+  height: 50px;
+  color: white;
+  background-color: black;
+}
+footer {
+  background-color: #295093;
+}
+.haqida {
+  display: flex;
+  gap: 60px;
+  padding: 20px 120px 0 120px;
+}
+.footer__img {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+.chiziq {
+  width: 1150px;
+  margin-left: 115px;
+}
+.boxs {
+  display: flex;
+  gap: 100px;
+  margin: 0 120px;
+  margin-bottom: 13px;
+}
+.box:nth-child(1) {
+  width: 365px;
+  height: 120px;
+}
+.box:nth-child(2) {
+  width: 163px;
+  height: 106px;
+}
+.box:nth-child(3) {
+  width: 225px;
+  height: 106px;
+}
+.card__title,
+.footer__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.box__text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.footer__list {
+  /* Информация о сайте Напишите нам Реклама Прислать новость */
+  width: 163px;
+  height: 106px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.nav__btnn {
+  background: #fff;
+  color: #295093;
+}
+
+/* Otish qismi */
+
+.otish_qismi {
+  flex-wrap: wrap;
+}
+
+.otish_qismi_right {
+  color: white;
+  text-align: end;
+}
+
+.otish_qismi_left {
+  color: white;
+  text-align: start;
+}
+
+/* Quti */
+
+.quti_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.qutilar {
+  width: 794px;
+  height: 588px;
+
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+}
+
+.quti {
+  width: 300px;
+  margin-right: 50px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.quti__img {
+  width: 252px;
+  height: 143px;
+}
+.quti__text {
+  width: 512px;
+  height: 74px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #434343;
+}
+.quti__title {
+  /* По факту прорыва Сардобинского водохранилища возбуждено уголовное дело */
+
+  width: 434px;
+  height: 42px;
+  margin-bottom: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #202020;
+}
+.quti__btn {
+  background: #295093;
+  border-radius: 5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 10px 32px;
+  margin-left: 300px;
+  color: #ffffff;
+}

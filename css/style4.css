@@ -1,0 +1,322 @@
+/* Header */
+
+@import url(/fonts/font.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(203, 203, 203);
+}
+.container {
+  background-color: #fff;
+  width: 90vw;
+  margin: 30px auto;
+}
+.wrapper {
+  padding: 40px 100px;
+}
+.navbar {
+  background-color: #f6f6f9;
+  padding: 40px 100px;
+}
+.logos {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+.logo {
+  margin-right: 30px;
+  background-color: #fff;
+  padding: 10px;
+}
+.narx {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(138, 138, 138);
+}
+.span__narx {
+  width: 258px;
+  height: 21px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 3px;
+  color: #285193;
+}
+.nav__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-left: auto;
+  width: 146px;
+  height: 40px;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+  border: none;
+}
+.list {
+  padding: 22px 24px;
+  background-color: #fff;
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  margin-bottom: 18px;
+}
+.list__items,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+.banner {
+  width: 100%;
+}
+
+/* Main section */
+
+.Forms {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+input {
+  margin-bottom: 20px;
+  display: block;
+  box-sizing: border-box;
+  width: 600px;
+  height: 50px;
+  padding: 16px;
+  background: #f1f1f1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 3px solid blue;
+}
+
+.textarea {
+  padding: 15px;
+  box-sizing: border-box;
+  width: 600px;
+  height: 307px;
+
+  background: #f1f1f1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  border-radius: 5px;
+}
+
+.forms_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 15px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.download_file,
+.code,
+.submit {
+  box-sizing: border-box;
+  width: 221px;
+  height: 50px;
+
+  background: #fbfbfb;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  border-radius: 5px;
+}
+
+.paswrods {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Left_submit {
+  /* Rectangle 61 */
+
+  box-sizing: border-box;
+
+  width: 221px;
+  height: 50px;
+
+  background: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  border-radius: 5px;
+  color: white;
+}
+
+/* Right sentence */
+
+.forms_right {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 510px;
+  height: 280px;
+
+  background: #ffffff;
+  border: 2px solid #bcc3cd;
+  border-radius: 5px;
+
+  background: rgba(41, 80, 145, 0.16);
+  box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+  border-radius: 5px;
+}
+
+.right_title {
+  text-align: end;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 30px;
+  color: #295091;
+}
+
+.right_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box_left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box_right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Telegram_button {
+  border: none;
+  width: 150px;
+  height: 33px;
+  align-items: center;
+  color: white;
+  background: #295091;
+  border-radius: 5px;
+}
+.box_link {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #888888;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  background-color: #295093;
+}
+.haqida {
+  display: flex;
+  gap: 60px;
+  padding: 20px 120px 0 120px;
+}
+.footer__img {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+.chiziq {
+  width: 1150px;
+  margin-left: 115px;
+}
+.boxs {
+  display: flex;
+  gap: 100px;
+  margin: 0 120px;
+  margin-bottom: 13px;
+}
+.box:nth-child(1) {
+  width: 365px;
+  height: 120px;
+}
+.box:nth-child(2) {
+  width: 163px;
+  height: 106px;
+}
+.box:nth-child(3) {
+  width: 225px;
+  height: 106px;
+}
+
+.card__title,
+.footer__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.box__text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.footer__list {
+  /* Информация о сайте Напишите нам Реклама Прислать новость */
+  width: 163px;
+  height: 106px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.nav__btnn {
+  background: #fff;
+  color: #295093;
+}
+
+/* Otish qismi */
+
+.otish_qismi {
+  flex-wrap: wrap;
+}
+
+.otish_qismi_right {
+  color: white;
+  text-align: end;
+}
